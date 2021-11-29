@@ -3,7 +3,7 @@ entries:
   first-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-30T06:34:49.890467295+08:00"
+    created: "2021-11-30T06:46:36.769746109+08:00"
     description: A Helm chart for Kubernetes
     digest: 5dff0cfeafa00d9a87e9989586de3deda436a05fca118df03aa3469221866a8d
     name: first-chart
@@ -11,4 +11,25 @@ entries:
     urls:
     - src/first-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-30T06:34:49.88963629+08:00"
+  my-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-30T06:46:36.770983392+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 8256153f37ed0071e81fa2fe914e7bcf82e914bec951dadc5f2645faa38c4021
+    name: my-app
+    type: application
+    urls:
+    - src/my-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-30T06:46:36.770313312+08:00"
+    description: A Helm chart for Kubernetes
+    digest: c2865e2c9d0a74044b7d8ff5471df7fd552bc402b5240e01cf02e116ee5f800e
+    name: my-app
+    type: application
+    urls:
+    - src/my-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-30T06:46:36.768952982+08:00"
